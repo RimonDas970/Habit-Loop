@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans, "Inter", sans-serif);
+  --color-primary: #B6FF3B;
+  --color-background: #F5F5F5;
+  --color-foreground: #111111;
+}
+
+:root {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
